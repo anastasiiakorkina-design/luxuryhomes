@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bueno Homes — Luxury Home Renovation in Aberdeen</title>
+  <meta name="description" content="Bueno Homes — premium kitchens, bathrooms, custom joinery and flooring in Aberdeen. 12+ years of meticulous home renovation." />
+  <link rel="canonical" href="/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-mark"><span>Bueno</span><em>Homes</em></div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <!-- Scroll progress -->
+  <div id="progress" class="progress-bar"></div>
+
+  <!-- Header -->
+  <header id="nav" class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="brand">
+        <span>Bueno</span><em>Homes</em>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="tel:07495240435" class="nav__cta">📞 07495 240435</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="mobileNav" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:07495240435" class="nav__cta nav__cta--mobile">📞 07495 240435</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="hero__media">
+      <img src="images/hero.jpg" alt="Luxury dark kitchen with marble island and brass pendants" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <p class="eyebrow"><span class="gold-line"></span> Aberdeen · Est. since 2013</p>
+      <h1 class="display">Crafting <em>Exceptional</em><br />Spaces.</h1>
+      <p class="lede">12+ years of meticulous home renovation across Aberdeen. Kitchens, bathrooms, custom joinery and flooring — built with patience, finished with intent.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--gold">Get a Free Quote</a>
+        <a href="#projects" class="btn btn--ghost">View Projects</a>
+      </div>
+      <a href="#services" class="hero__scroll">↓ Discover the craft</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span class="gold-line"></span> What we do</p>
+        <h2 class="display display--md">Four disciplines.<br /><em>One standard.</em></h2>
+      </div>
+      <div class="services-grid">
+        <article class="service reveal">
+          <div class="service__top"><span class="service__icon">⚡</span><span class="service__arrow">↗</span></div>
+          <h3>Kitchens</h3>
+          <p>Bespoke kitchens designed around how you cook, gather and live. Marble, oak, brushed brass — finished to last.</p>
+          <span class="service__line"></span>
+        </article>
+        <article class="service reveal">
+          <div class="service__top"><span class="service__icon">🛁</span><span class="service__arrow">↗</span></div>
+          <h3>Bathrooms</h3>
+          <p>Spa-grade bathrooms with stone, glass and warm light. From compact en-suites to wet rooms with intent.</p>
+          <span class="service__line"></span>
+        </article>
+        <article class="service reveal">
+          <div class="service__top"><span class="service__icon">🔨</span><span class="service__arrow">↗</span></div>
+          <h3>Custom Joinery</h3>
+          <p>Hand-crafted built-ins, wardrobes and feature walls. Made on-site for the room, not for a catalogue.</p>
+          <span class="service__line"></span>
+        </article>
+        <article class="service reveal">
+          <div class="service__top"><span class="service__icon">📐</span><span class="service__arrow">↗</span></div>
+          <h3>Flooring</h3>
+          <p>Engineered oak, herringbone parquet, large-format stone. Specified, supplied and laid by our team.</p>
+          <span class="service__line"></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section--card">
+    <div class="container">
+      <div class="section__head section__head--row reveal">
+        <div>
+          <p class="eyebrow"><span class="gold-line"></span> Selected work</p>
+          <h2 class="display display--md">A portfolio of<br /><em>quiet detail.</em></h2>
+        </div>
+        <p class="muted">Every project is documented, measured and finished by the same small team — from concept sketch to final coat.</p>
+      </div>
+
+      <div class="gallery">
+        <button class="tile tile--lg reveal" data-i="0"><img src="images/hero.jpg" alt="Marble Island Kitchen" /><span class="tile__cap"><em>Kitchen</em><b>Marble Island Kitchen</b></span></button>
+        <button class="tile reveal" data-i="1"><img src="images/bathroom.jpg" alt="Stone Bathroom Suite" /><span class="tile__cap"><em>Bathroom</em><b>Stone Bathroom Suite</b></span></button>
+        <button class="tile reveal" data-i="2"><img src="images/joinery.jpg" alt="Library Built-Ins" /><span class="tile__cap"><em>Joinery</em><b>Library Built-Ins</b></span></button>
+        <button class="tile tile--wide reveal" data-i="3"><img src="images/flooring.jpg" alt="Herringbone Hallway" /><span class="tile__cap"><em>Flooring</em><b>Herringbone Hallway</b></span></button>
+        <button class="tile reveal" data-i="4"><img src="images/kitchen2.jpg" alt="Sage Shaker Kitchen" /><span class="tile__cap"><em>Kitchen</em><b>Sage Shaker Kitchen</b></span></button>
+        <button class="tile reveal" data-i="5"><img src="images/bathroom2.jpg" alt="Walk-in Stone Shower" /><span class="tile__cap"><em>Bathroom</em><b>Walk-in Stone Shower</b></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase / 3D -->
+  <section id="showcase" class="section showcase">
+    <div class="showcase__glow showcase__glow--a"></div>
+    <div class="showcase__glow showcase__glow--b"></div>
+    <div class="container showcase__grid">
+      <div class="reveal">
+        <p class="eyebrow"><span class="gold-line"></span> Inside the workshop</p>
+        <h2 class="display display--md">Tilt it. <em>Feel it.</em></h2>
+        <p class="muted lede-md">A short film through one of our recent transformations — from stripped walls to the moment our clients walked back in.</p>
+        <ul class="steps">
+          <li><span>01</span><b>Discovery & on-site survey</b></li>
+          <li><span>02</span><b>Design, materials & joinery drawings</b></li>
+          <li><span>03</span><b>Build, finish, hand-over</b></li>
+        </ul>
+      </div>
+
+      <div class="tilt-wrap reveal" id="tiltWrap">
+        <div class="tilt-card" id="tiltCard">
+          <img src="images/hero.jpg" alt="Showcase project" />
+          <div class="tilt-card__shade"></div>
+          <button class="play" aria-label="Play showcase">▶</button>
+          <div class="tilt-card__cap">
+            <em>Case film · 02:14</em>
+            <b>Cults Townhouse — Kitchen</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section--card">
+    <div class="container about-grid">
+      <div class="reveal">
+        <p class="eyebrow"><span class="gold-line"></span> About Bueno Homes</p>
+        <h2 class="display display--md">A small Aberdeen studio, building the homes we'd want to live in.</h2>
+      </div>
+      <div class="reveal">
+        <p class="muted lede-md">For over twelve years we've been quietly renovating Aberdeen homes — one kitchen, one bathroom, one staircase at a time. We believe a renovation is half craftsmanship, half conversation.</p>
+        <p class="muted lede-md">No subcontracted chaos. Just a focused crew, premium materials, and a finish you'll still love a decade later.</p>
+        <div class="stats">
+          <div><b>12+</b><span>Years in Aberdeen</span></div>
+          <div><b>180+</b><span>Homes transformed</span></div>
+          <div><b>100%</b><span>Local, in-house team</span></div>
+          <div><b>5★</b><span>Client referrals</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="eyebrow"><span class="gold-line"></span> Start your project</p>
+        <h2 class="display display--md">Let's design<br /><em>something lasting.</em></h2>
+        <p class="muted lede-md">Tell us about your space. We respond within one business day.</p>
+        <div class="info">
+          <a href="tel:07495240435" class="info__row"><span class="info__ico">📞</span><span><em>Call</em><b>07495 240435</b></span></a>
+          <a href="mailto:buenohomes@hotmail.com" class="info__row"><span class="info__ico">✉</span><span><em>Email</em><b>buenohomes@hotmail.com</b></span></a>
+          <div class="info__row"><span class="info__ico">📍</span><span><em>Studio</em><b>Aberdeen, Scotland</b></span></div>
+        </div>
+        <div class="map">
+          <iframe title="Aberdeen map" src="https://www.google.com/maps?q=Aberdeen,UK&output=embed" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <form class="form reveal" id="quoteForm" novalidate>
+        <label><em>Name</em><input name="name" type="text" placeholder="Jane Mackenzie" required /></label>
+        <div class="form__row">
+          <label><em>Phone</em><input name="phone" type="tel" placeholder="07xxx xxxxxx" required /></label>
+          <label><em>Email</em><input name="email" type="email" placeholder="you@example.com" required /></label>
+        </div>
+        <label><em>Project details</em><textarea name="message" rows="5" placeholder="Tell us about the rooms, scope and timing…" required></textarea></label>
+        <button type="submit" class="btn btn--gold">Request a Quote</button>
+        <p class="form__msg" id="formMsg" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="brand"><span>Bueno</span><em>Homes</em></a>
+        <p class="muted">Premium home renovation in Aberdeen — kitchens, bathrooms, joinery & flooring.</p>
+      </div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="LinkedIn">IN</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="yr"></span> Bueno Homes · Aberdeen, UK</span>
+      <span>Crafted with care</span>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next">›</button>
+    <figure class="lightbox__inner">
+      <img id="lbImg" alt="" />
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
